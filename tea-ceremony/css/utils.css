@@ -1,0 +1,42 @@
+/* Container */
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Section */ 
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+}
+
+.section--big {
+    min-height: 100vh;
+}
+
+.section__header {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Link */
+.link {
+    color: inherit;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-even {
+    justify-content: space-evenly;
+}
+
+@media (min-width: 768px) {
+    .flex-container {
+        display: flex;
+    }
+}
