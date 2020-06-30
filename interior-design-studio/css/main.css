@@ -1,0 +1,120 @@
+html {
+    background-attachment: fixed;
+    background-image: url('../images/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-header {
+    background-color: rgba(244, 245, 247, 0.25);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-header:hover {
+    background-color: rgba(244, 245, 247, 0.2);
+}
+
+.main-navigation {
+    background-color: rgba(244, 245, 247, 0.5);
+    color: #516926;
+}
+
+.main-navigation__menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-navigation__link {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.main-navigation__link:hover {
+    background-color: rgba(183, 198, 108, 0.9);
+    color: #fff;
+}
+
+.main-header__info {
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+.main-header__info__header {
+    color: #465a20;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.main-header__info__link {
+    background-color: rgba(183, 198, 108, 0.9);
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.main-header__info__link:hover {
+    background-color: rgba(158, 176, 69, 0.9);
+    border-radius: 15px;
+}
+
+.main-footer {
+    background-color: rgba(244, 245, 247, 0.7);
+}
+
+.main-footer:hover {
+    background-color: rgba(244, 245, 247, 0.25);
+}
+
+.credits {
+    color: #465a20;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.credits__header {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.external-resource {
+    font-size: 1.2rem;
+}
+
+.external-resource__link {
+    border-bottom: 1px dotted #465a20;
+}
+
+.external-resource__link:hover {
+    border-bottom: 1px solid #465a20;
+}
+
+@media (max-width: 168px) {
+    .main-header__info__header {
+        font-size: 2.2rem;
+    }
+
+    .main-header__info__link {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 810px) {
+    .main-navigation__menu {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
