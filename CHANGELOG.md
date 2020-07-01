@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## July 1, 2020
+- A Services section was added.
+
 ## June 30, 2020
 - A landing page for an interior design studio was added.
 - The index.html was validated with the HTML validator.
