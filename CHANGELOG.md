@@ -3,6 +3,7 @@
 ## July 7, 2020
 - Light Studio v1.0.0
 - Work on a new version of Light Studio was started.
+- A TODO.md file was added.
 
 ## July 1, 2020
 - A Services section was added.
