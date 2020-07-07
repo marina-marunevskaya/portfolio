@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## July 7, 2020
+- Light Studio v1.0.0
+
 ## July 1, 2020
 - A Services section was added.
 
