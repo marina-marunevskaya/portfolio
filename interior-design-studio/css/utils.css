@@ -1,0 +1,21 @@
+:root {
+    --container-max-width: 1200px;
+}
+
+/* Container */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container-max-width);
+}
+
+/* Flex */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Text */
+.text-center {
+    text-align: center;
+}
