@@ -18,7 +18,7 @@
        For Keeping Everything In One Place
     */
     --small-mobile-screen: 168px;
-    --tablet-screen: 810px;
+    --tablet-screen: 820px;
 
     /* Sizes */
     --main-header-min-height: 100vh;
@@ -67,7 +67,7 @@ html {
     color: rgb(var(--secondary-color));
 }
 
-@media (min-width: 810px) {
+@media (min-width: 820px) {
     .main-navigation__menu {
         flex-direction: row;
         justify-content: space-between;

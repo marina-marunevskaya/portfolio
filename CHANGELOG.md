@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## July 14, 2020
+- Issues with the top navigation were fixed.
+
 ## July 7, 2020
 - Light Studio v1.0.0
 - Work on a new version of Light Studio was started.
