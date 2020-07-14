@@ -4,6 +4,7 @@
 - Issues with the top navigation were fixed.
 - A Main header section was completed.
 - Fonts issues were fixed.
+- A TODO.md was updated.
 
 ## July 7, 2020
 - Light Studio v1.0.0
